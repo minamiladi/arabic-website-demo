@@ -1,0 +1,28 @@
+/* Lantern Gate: campaign landing page (loaded only on pages that use the Landing template) */
+.lp-hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+.lp-hero .wrap{position:relative;padding-top:84px;padding-bottom:88px}
+.lp-hero h1{color:#fff;max-width:780px}
+.lp-hero .lead{font-size:1.2rem;max-width:640px;color:#e6ebf4}
+.lp-hero .eyebrow{color:var(--gold)}
+.lp-hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.lp-hero a:not(.btn){color:#fff}
+.lp-section{padding:64px 0}
+.lp-section.alt{background:var(--ivory)}
+.lp-section h2{margin-top:0}
+.lp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.lp-faq{max-width:780px}
+.lp-faq details{border:1px solid var(--line);background:#fff;margin-bottom:12px;border-radius:2px}
+.lp-faq summary{cursor:pointer;padding:14px 20px;font-weight:700;color:var(--navy);min-height:44px}
+.lp-faq details p{padding:0 20px;margin:0 0 .9em;color:var(--muted)}
+.lp-form-wrap{max-width:680px}
+.lp-form-wrap .lead-note{color:var(--muted)}
+.form-row select{width:100%;padding:12px 13px;border:1px solid #b9b4a3;border-radius:3px;font:inherit;background:#fff;color:var(--ink)}
+.form-row select:focus{outline:2px solid var(--gold);border-color:var(--navy)}
+.lp-footer{background:#08162b;color:#c5cfdf;padding:28px 0;font-size:.9rem}
+.lp-footer .wrap{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap}
+.lp-footer a{color:#e6ebf4}
+@media (max-width:900px){.lp-grid{grid-template-columns:1fr}}
+@media (max-width:600px){
+ .lp-hero .wrap{padding-top:52px;padding-bottom:56px}
+ .lp-section{padding:44px 0}
+}
